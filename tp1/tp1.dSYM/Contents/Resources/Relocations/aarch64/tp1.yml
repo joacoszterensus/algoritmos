@@ -1,0 +1,33 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     tp1
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _real_test_assert, symObjAddr: 0x0, symBinAddr: 0x1000010CC, symSize: 0xF4 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _real_test_assert, symObjAddr: 0x0, symBinAddr: 0x1000010CC, symSize: 0xF4 }
+  - { offsetInCU: 0x26, offset: 0xDF, size: 0x8, addend: 0x0, symName: _test_is_prime, symObjAddr: 0x0, symBinAddr: 0x1000011C0, symSize: 0x14C }
+  - { offsetInCU: 0x48, offset: 0x101, size: 0x8, addend: 0x0, symName: _test_is_prime, symObjAddr: 0x0, symBinAddr: 0x1000011C0, symSize: 0x14C }
+  - { offsetInCU: 0x70, offset: 0x129, size: 0x8, addend: 0x0, symName: _test_storage_capacity, symObjAddr: 0x14C, symBinAddr: 0x10000130C, symSize: 0x17C }
+  - { offsetInCU: 0x98, offset: 0x151, size: 0x8, addend: 0x0, symName: _test_swap, symObjAddr: 0x2C8, symBinAddr: 0x100001488, symSize: 0x1E0 }
+  - { offsetInCU: 0xDC, offset: 0x195, size: 0x8, addend: 0x0, symName: _test_array_max, symObjAddr: 0x4A8, symBinAddr: 0x100001668, symSize: 0x338 }
+  - { offsetInCU: 0x190, offset: 0x249, size: 0x8, addend: 0x0, symName: _double_int, symObjAddr: 0x7E0, symBinAddr: 0x1000019A0, symSize: 0x18 }
+  - { offsetInCU: 0x1B8, offset: 0x271, size: 0x8, addend: 0x0, symName: _test_array_map, symObjAddr: 0x7F8, symBinAddr: 0x1000019B8, symSize: 0x26C }
+  - { offsetInCU: 0x26C, offset: 0x325, size: 0x8, addend: 0x0, symName: _test_array_copy, symObjAddr: 0xA64, symBinAddr: 0x100001C24, symSize: 0x21C }
+  - { offsetInCU: 0x2F6, offset: 0x3AF, size: 0x8, addend: 0x0, symName: _test_array_of_array_copy, symObjAddr: 0xC80, symBinAddr: 0x100001E40, symSize: 0x614 }
+  - { offsetInCU: 0x460, offset: 0x519, size: 0x8, addend: 0x0, symName: _test_free_array_of_arrays, symObjAddr: 0x1294, symBinAddr: 0x100002454, symSize: 0x10C }
+  - { offsetInCU: 0x4DC, offset: 0x595, size: 0x8, addend: 0x0, symName: _test_bubble_sort, symObjAddr: 0x13A0, symBinAddr: 0x100002560, symSize: 0x2DC }
+  - { offsetInCU: 0x591, offset: 0x64A, size: 0x8, addend: 0x0, symName: _test_array_equal, symObjAddr: 0x167C, symBinAddr: 0x10000283C, symSize: 0x2D8 }
+  - { offsetInCU: 0x5F6, offset: 0x6AF, size: 0x8, addend: 0x0, symName: _test_integer_anagrams, symObjAddr: 0x1954, symBinAddr: 0x100002B14, symSize: 0x3F8 }
+  - { offsetInCU: 0x67C, offset: 0x735, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x1D4C, symBinAddr: 0x100002F0C, symSize: 0x1A0 }
+  - { offsetInCU: 0x26, offset: 0x7BA, size: 0x8, addend: 0x0, symName: _is_prime, symObjAddr: 0x0, symBinAddr: 0x1000030AC, symSize: 0x9C }
+  - { offsetInCU: 0x3A, offset: 0x7CE, size: 0x8, addend: 0x0, symName: _is_prime, symObjAddr: 0x0, symBinAddr: 0x1000030AC, symSize: 0x9C }
+  - { offsetInCU: 0x70, offset: 0x804, size: 0x8, addend: 0x0, symName: _storage_capacity, symObjAddr: 0x9C, symBinAddr: 0x100003148, symSize: 0x2C }
+  - { offsetInCU: 0xB4, offset: 0x848, size: 0x8, addend: 0x0, symName: _swap, symObjAddr: 0xC8, symBinAddr: 0x100003174, symSize: 0x3C }
+  - { offsetInCU: 0xF4, offset: 0x888, size: 0x8, addend: 0x0, symName: _array_max, symObjAddr: 0x104, symBinAddr: 0x1000031B0, symSize: 0x90 }
+  - { offsetInCU: 0x154, offset: 0x8E8, size: 0x8, addend: 0x0, symName: _array_map, symObjAddr: 0x194, symBinAddr: 0x100003240, symSize: 0xA8 }
+  - { offsetInCU: 0x1B0, offset: 0x944, size: 0x8, addend: 0x0, symName: _copy_array, symObjAddr: 0x23C, symBinAddr: 0x1000032E8, symSize: 0xC4 }
+  - { offsetInCU: 0x210, offset: 0x9A4, size: 0x8, addend: 0x0, symName: _copy_array_of_arrays, symObjAddr: 0x300, symBinAddr: 0x1000033AC, symSize: 0x17C }
+  - { offsetInCU: 0x29A, offset: 0xA2E, size: 0x8, addend: 0x0, symName: _free_array_of_arrays, symObjAddr: 0x47C, symBinAddr: 0x100003528, symSize: 0xA8 }
+  - { offsetInCU: 0x2F6, offset: 0xA8A, size: 0x8, addend: 0x0, symName: _bubble_sort, symObjAddr: 0x524, symBinAddr: 0x1000035D0, symSize: 0x114 }
+  - { offsetInCU: 0x37C, offset: 0xB10, size: 0x8, addend: 0x0, symName: _array_equal, symObjAddr: 0x638, symBinAddr: 0x1000036E4, symSize: 0x14C }
+  - { offsetInCU: 0x3EA, offset: 0xB7E, size: 0x8, addend: 0x0, symName: _integer_anagrams, symObjAddr: 0x784, symBinAddr: 0x100003830, symSize: 0x114 }
+...
